@@ -8,7 +8,7 @@ This project demonstrates step-by-step **data cleaning** using Python and Pandas
 
 ### 1. Identify and Handle Missing Values
 ```python
-df.isnull().sum()###
+df.isnull().sum() ###
 
 ### 2. Remove Duplicate Rows
 df = df.dropna()   # or fillna()
