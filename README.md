@@ -48,7 +48,6 @@ df["appointmentday"] = pd.to_datetime(df["appointmentday"], format="%d-%m-%Y")
 ```
 ---
 ### ✅ Tools Used
---
 - Python
 - Pandas
 - Jupyter Notebook
