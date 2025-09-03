@@ -46,3 +46,10 @@ df.columns = df.columns.str.strip().str.lower().str.replace(" ", "_")
 df["age"] = df["age"].astype(int)
 df["appointmentday"] = pd.to_datetime(df["appointmentday"], format="%d-%m-%Y")
 ```
+
+### ✅ Tools Used
+---
+- Python
+- Pandas
+- Jupyter Notebook
+
